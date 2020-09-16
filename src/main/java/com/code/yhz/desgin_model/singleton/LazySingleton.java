@@ -1,4 +1,4 @@
-package com.code.yhz.singleton;
+package com.code.yhz.desgin_model.singleton;
 
 /**
  * @Author yhz
