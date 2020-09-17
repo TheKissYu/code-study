@@ -3,7 +3,7 @@ package com.code.yhz.thread;
 import java.util.concurrent.*;
 
 /**
- * xian'cgen
+ *
  * @Author yhz
  * @Date 2020/9/16 10:57
  */
