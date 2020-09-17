@@ -2,6 +2,7 @@ package com.code.yhz.blocking_queue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.SynchronousQueue;
 
 /**
  * @Author yhz
@@ -19,6 +20,7 @@ public class BlockingQueueDemo {
         // take
         // poll(time,unit)
         //检查 element peek
+
     }
 }
 
