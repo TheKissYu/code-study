@@ -169,21 +169,20 @@ public class Solution {
     public static int longestStr(String s){
         int rk = -1,ans=0;
         for (int i=0;i<s.length() && rk <s.length();){
-            System.out.println(i);
             Map<Character,Integer> map = new HashMap<>();
             map.put(s.charAt(i),i);
+            int tmp = ans;
             for (rk = i+1;rk <s.length();rk ++){
                 if (map.containsKey(s.charAt(rk))){
-                    System.out.println(s.charAt(rk));
-                    ans = Math.max(ans,rk-i);
-                    System.out.println("ans:"+ans);
+                    tmp = rk -i;
                     i = map.get(s.charAt(rk))+1;
                     break;
                 }else {
                     map.put(s.charAt(rk ),rk);
                 }
             }
-            System.out.println(map);
+            ans = Math.max(ans,tmp);
+            System.out.println(ans);
         }
         return ans;
     }
