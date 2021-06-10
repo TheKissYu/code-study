@@ -11,21 +11,21 @@ import yuhaoze.bean.People;
 
 
 public class SpringTest {
-    public static void main(String[] args) {
-        createBean2();
-    }
+//    public static void main(String[] args) {
+//        createBean2();
+//    }
+//
+//
+//    public static void createBean1(){
+//        ApplicationContext context = new ClassPathXmlApplicationContext("app.xml");
+//        People people = (People) context.getBean("people");
+//        people.sayHello();
+//    }
+//    public static void createBean2(){
+//
+//        BeanFactory beanFactory = new XmlBeanFactory(new ClassPathResource("app.xml"));
+//        People people = (People) beanFactory.getBean("people");
+//        people.sayHello();
+//    }
 
-
-    public static void createBean1(){
-        ApplicationContext context = new ClassPathXmlApplicationContext("app.xml");
-        People people = (People) context.getBean("people");
-        people.sayHello();
-    }
-    public static void createBean2(){
-        BeanDefinition beanDefinition = new GenericBeanDefinition();
-        
-        BeanFactory beanFactory = new XmlBeanFactory(new ClassPathResource("app.xml"));
-        People people = (People) beanFactory.getBean("people");
-        people.sayHello();
-    }
 }
