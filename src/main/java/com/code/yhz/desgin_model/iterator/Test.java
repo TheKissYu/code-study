@@ -1,8 +1,8 @@
-package com.code.design;
+package com.code.yhz.desgin_model;
 
-import com.code.design.iterator.Book;
-import com.code.design.iterator.Iterator;
-import com.code.design.iterator.Shelf;
+import com.code.yhz.desgin_model.iterator.*;
+
+
 
 public class Test {
     public static void main(String[] args) {

@@ -15,8 +15,6 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * @Date 2020/9/8 11:11
  */
 public class LockCode {
-
-
 }
 
 /**
@@ -24,15 +22,12 @@ public class LockCode {
  */
 class WriteLock{
     private volatile Map<String,Object> map = new HashMap<>();
-    ReentrantLock reentrantLock = new ReentrantLock (  );
-    ReentrantReadWriteLock reentrantReadWriteLock = new ReentrantReadWriteLock (  );
-//List
-//    AtomicInteger
+    ReentrantLock reentrantLock = new ReentrantLock ();
+    ReentrantReadWriteLock reentrantReadWriteLock = new ReentrantReadWriteLock ();
 }
 
 /**
  * 读锁
  */
 class ReadLock{
-
 }

@@ -15,7 +15,7 @@ public class Solution {
         }
         int left = 0;
         int right = 0;
-        boolean frist = true;
+        boolean first = true;
         for (;right<s.length();right++){
             if (count == 0){
                 for (;left < right;left ++){
