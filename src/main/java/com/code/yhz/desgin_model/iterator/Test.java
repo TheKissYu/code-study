@@ -1,4 +1,4 @@
-package com.code.yhz.desgin_model;
+package com.code.yhz.desgin_model.iterator;
 
 import com.code.yhz.desgin_model.iterator.*;
 

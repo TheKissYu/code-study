@@ -1,4 +1,4 @@
-package com.code.leetcode;
+package com.code.yhz.leetcode;
 
 import java.io.*;
 import java.util.*;

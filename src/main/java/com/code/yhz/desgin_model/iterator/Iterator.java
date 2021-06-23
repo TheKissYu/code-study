@@ -1,4 +1,4 @@
-package com.code.design.iterator;
+package com.code.yhz.desgin_model.iterator;
 
 public interface Iterator<T> {
     T next();

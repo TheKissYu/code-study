@@ -1,4 +1,4 @@
-package com.code.yhz.blocking_queue;
+package com.code.yhz.juc.blocking_queue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -24,7 +24,7 @@ public class MyResource {
             value = atomicInteger.incrementAndGet ()+"";
             l= blockingQueue.offer (  value,2L, TimeUnit.SECONDS);
             if ( l ){
-                System.out.println ( "生产成功 ：" + value);
+                System.out.println ( "生产成功：" + value);
             }
         }
         System.out.println ("停止生产");
@@ -35,11 +35,11 @@ public class MyResource {
             get = blockingQueue.poll ( 2L, TimeUnit.SECONDS );
             if (get == null ){
                 FLAG = false;
-                System.out.println ("获取不到 等待生产");
+                System.out.println ("获取不到等待生产");
             }
             System.out.println ("消费成功 ："+ get);
         }
-        System.out.println ("停止生产 停止消费");
+        System.out.println ("停止生产，停止消费");
     }
     public void stop(){
         FLAG = false;

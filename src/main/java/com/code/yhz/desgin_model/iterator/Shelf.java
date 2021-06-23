@@ -1,4 +1,4 @@
-package com.code.design.iterator;
+package com.code.yhz.desgin_model.iterator;
 
 public  class Shelf<T> implements Aggregate<T> {
     private int size;
@@ -8,8 +8,7 @@ public  class Shelf<T> implements Aggregate<T> {
         this.size = size;
         elementData = new Object[size];
     }
-    @Override
-    public Iterator<T> iterator() {
+    public Iterator iterator() {
         return new ShelfIterator<>();
     }
 

@@ -1,4 +1,4 @@
-package com.code.leetcode.day_20210611;
+package com.code.yhz.leetcode.day_20210611;
 
 import java.util.HashMap;
 import java.util.Map;

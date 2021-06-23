@@ -1,6 +1,5 @@
-package com.code.yhz.blocking_queue;
+package com.code.yhz.juc.blocking_queue;
 
-import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.SynchronousQueue;
 

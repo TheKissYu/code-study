@@ -1,4 +1,4 @@
-package com.code.yhz;
+package com.code.yhz.lock;
 
 import java.util.concurrent.Semaphore;
 

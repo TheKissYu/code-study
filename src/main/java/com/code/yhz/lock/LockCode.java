@@ -1,11 +1,9 @@
-package com.code.yhz;
+package com.code.yhz.lock;
 
 
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
@@ -16,7 +14,6 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  */
 public class LockCode {
 }
-
 /**
  * 写锁
  */
